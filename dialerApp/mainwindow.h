@@ -21,8 +21,12 @@ private slots:
 
     void on_tableView_clicked(const QModelIndex &index);
 
+    void on_actionExit_triggered();
+
 private:
     Ui::MainWindow *ui;
     addressBookModel *myModel;
+    void loadImages();
+    void SetButtons();
 };
 #endif // MAINWINDOW_H
