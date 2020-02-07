@@ -13,7 +13,7 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHeaderView>
-#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
@@ -31,7 +31,6 @@ public:
     QAction *actionExit;
     QWidget *centralwidget;
     QTableView *tableView;
-    QLabel *label;
     QPushButton *Button1;
     QPushButton *Button2;
     QPushButton *Button3;
@@ -45,6 +44,8 @@ public:
     QPushButton *ButtonStar;
     QPushButton *Button0;
     QPushButton *ButtonPhone;
+    QLineEdit *NumDisplay;
+    QPushButton *pushButton;
     QMenuBar *menubar;
     QMenu *menuTools;
     QStatusBar *statusbar;
@@ -55,7 +56,8 @@ public:
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(1091, 760);
         MainWindow->setStyleSheet(QString::fromUtf8("color: white;\n"
-" background-color: #252839"));
+" background-color: #252839;\n"
+"border-color: red"));
         actionOpen_Address_Book = new QAction(MainWindow);
         actionOpen_Address_Book->setObjectName(QString::fromUtf8("actionOpen_Address_Book"));
         actionExit = new QAction(MainWindow);
@@ -72,13 +74,9 @@ public:
         tableView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
         tableView->horizontalHeader()->setVisible(false);
         tableView->verticalHeader()->setVisible(false);
-        label = new QLabel(centralwidget);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(20, 10, 461, 61));
-        label->setStyleSheet(QString::fromUtf8("color: white"));
         Button1 = new QPushButton(centralwidget);
         Button1->setObjectName(QString::fromUtf8("Button1"));
-        Button1->setGeometry(QRect(70, 90, 104, 104));
+        Button1->setGeometry(QRect(60, 90, 104, 104));
         Button1->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #252839;\n"
 " border-style: solid;\n"
@@ -91,7 +89,7 @@ public:
 " min-height:100px;"));
         Button2 = new QPushButton(centralwidget);
         Button2->setObjectName(QString::fromUtf8("Button2"));
-        Button2->setGeometry(QRect(200, 90, 104, 104));
+        Button2->setGeometry(QRect(190, 90, 104, 104));
         Button2->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #252839;\n"
 " border-style: solid;\n"
@@ -117,7 +115,7 @@ public:
 " min-height:100px;"));
         Button5 = new QPushButton(centralwidget);
         Button5->setObjectName(QString::fromUtf8("Button5"));
-        Button5->setGeometry(QRect(200, 210, 104, 104));
+        Button5->setGeometry(QRect(190, 210, 104, 104));
         Button5->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #252839;\n"
 " border-style: solid;\n"
@@ -143,7 +141,7 @@ public:
 " min-height:100px;"));
         Button4 = new QPushButton(centralwidget);
         Button4->setObjectName(QString::fromUtf8("Button4"));
-        Button4->setGeometry(QRect(70, 210, 104, 104));
+        Button4->setGeometry(QRect(60, 210, 104, 104));
         Button4->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #252839;\n"
 " border-style: solid;\n"
@@ -156,7 +154,7 @@ public:
 " min-height:100px;"));
         Button8 = new QPushButton(centralwidget);
         Button8->setObjectName(QString::fromUtf8("Button8"));
-        Button8->setGeometry(QRect(200, 330, 104, 104));
+        Button8->setGeometry(QRect(190, 330, 104, 104));
         Button8->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #252839;\n"
 " border-style: solid;\n"
@@ -182,7 +180,7 @@ public:
 " min-height:100px;"));
         Button7 = new QPushButton(centralwidget);
         Button7->setObjectName(QString::fromUtf8("Button7"));
-        Button7->setGeometry(QRect(70, 330, 104, 104));
+        Button7->setGeometry(QRect(60, 330, 104, 104));
         Button7->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #252839;\n"
 " border-style: solid;\n"
@@ -208,7 +206,7 @@ public:
 " min-height:100px;"));
         ButtonStar = new QPushButton(centralwidget);
         ButtonStar->setObjectName(QString::fromUtf8("ButtonStar"));
-        ButtonStar->setGeometry(QRect(70, 450, 104, 104));
+        ButtonStar->setGeometry(QRect(60, 450, 104, 104));
         ButtonStar->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #252839;\n"
 " border-style: solid;\n"
@@ -221,7 +219,7 @@ public:
 " min-height:100px;"));
         Button0 = new QPushButton(centralwidget);
         Button0->setObjectName(QString::fromUtf8("Button0"));
-        Button0->setGeometry(QRect(200, 450, 104, 104));
+        Button0->setGeometry(QRect(190, 450, 104, 104));
         Button0->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #252839;\n"
 " border-style: solid;\n"
@@ -234,7 +232,7 @@ public:
 " min-height:100px;"));
         ButtonPhone = new QPushButton(centralwidget);
         ButtonPhone->setObjectName(QString::fromUtf8("ButtonPhone"));
-        ButtonPhone->setGeometry(QRect(200, 570, 104, 104));
+        ButtonPhone->setGeometry(QRect(190, 570, 104, 104));
         ButtonPhone->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #f2b632;\n"
 " border-style: solid;\n"
@@ -246,6 +244,12 @@ public:
 " min-width:100px;\n"
 " min-height:100px;\n"
 ""));
+        NumDisplay = new QLineEdit(centralwidget);
+        NumDisplay->setObjectName(QString::fromUtf8("NumDisplay"));
+        NumDisplay->setGeometry(QRect(20, 10, 341, 61));
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(380, 30, 92, 31));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -272,7 +276,6 @@ public:
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
         actionOpen_Address_Book->setText(QApplication::translate("MainWindow", "Open Address Book...", nullptr));
         actionExit->setText(QApplication::translate("MainWindow", "Exit", nullptr));
-        label->setText(QApplication::translate("MainWindow", "NumDisplay                                                                  <---", nullptr));
         Button1->setText(QApplication::translate("MainWindow", "1", nullptr));
         Button2->setText(QString());
         Button3->setText(QString());
@@ -286,6 +289,7 @@ public:
         ButtonStar->setText(QApplication::translate("MainWindow", "*", nullptr));
         Button0->setText(QString());
         ButtonPhone->setText(QString());
+        pushButton->setText(QApplication::translate("MainWindow", "BACKSPACE", nullptr));
         menuTools->setTitle(QApplication::translate("MainWindow", "Tools", nullptr));
     } // retranslateUi
 

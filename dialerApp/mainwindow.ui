@@ -15,7 +15,8 @@
   </property>
   <property name="styleSheet">
    <string notr="true">color: white;
- background-color: #252839</string>
+ background-color: #252839;
+border-color: red</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTableView" name="tableView">
@@ -45,26 +46,10 @@
      <bool>false</bool>
     </attribute>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>10</y>
-      <width>461</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: white</string>
-    </property>
-    <property name="text">
-     <string>NumDisplay                                                                  &lt;---</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="Button1">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>60</x>
       <y>90</y>
       <width>104</width>
       <height>104</height>
@@ -89,7 +74,7 @@ background-color: #252839;
    <widget class="QPushButton" name="Button2">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>90</y>
       <width>104</width>
       <height>104</height>
@@ -139,7 +124,7 @@ background-color: #252839;
    <widget class="QPushButton" name="Button5">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>210</y>
       <width>104</width>
       <height>104</height>
@@ -189,7 +174,7 @@ background-color: #252839;
    <widget class="QPushButton" name="Button4">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>60</x>
       <y>210</y>
       <width>104</width>
       <height>104</height>
@@ -214,7 +199,7 @@ background-color: #252839;
    <widget class="QPushButton" name="Button8">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>330</y>
       <width>104</width>
       <height>104</height>
@@ -264,7 +249,7 @@ background-color: #252839;
    <widget class="QPushButton" name="Button7">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>60</x>
       <y>330</y>
       <width>104</width>
       <height>104</height>
@@ -314,7 +299,7 @@ background-color: #252839;
    <widget class="QPushButton" name="ButtonStar">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>60</x>
       <y>450</y>
       <width>104</width>
       <height>104</height>
@@ -339,7 +324,7 @@ background-color: #252839;
    <widget class="QPushButton" name="Button0">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>450</y>
       <width>104</width>
       <height>104</height>
@@ -364,7 +349,7 @@ background-color: #252839;
    <widget class="QPushButton" name="ButtonPhone">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>570</y>
       <width>104</width>
       <height>104</height>
@@ -385,6 +370,29 @@ background-color: #f2b632;
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="NumDisplay">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>341</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>30</y>
+      <width>92</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BACKSPACE</string>
     </property>
    </widget>
   </widget>
