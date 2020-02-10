@@ -14,9 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">color: white;
- background-color: #252839;
-border-color: red</string>
+   <string notr="true">background-color: #FFFFFF</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTableView" name="tableView">
@@ -56,12 +54,12 @@ border-color: red</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -81,12 +79,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -106,12 +104,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -131,12 +129,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -156,12 +154,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -181,12 +179,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -206,12 +204,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -231,12 +229,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -256,12 +254,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -281,12 +279,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -306,12 +304,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -331,12 +329,12 @@ background-color: #252839;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: white;
-background-color: #252839;
+     <string notr="true">color: #666666;
+background-color: #FFFFFF;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
- border-color: white;
+ border-color: #666666;
  max-width:100px;
  max-height:100px;
  min-width:100px;
@@ -357,7 +355,7 @@ background-color: #252839;
     </property>
     <property name="styleSheet">
      <string notr="true">color: white;
-background-color: #f2b632;
+background-color: #3CD141;
  border-style: solid;
  border-width:1.5px;
  border-radius:50px;
