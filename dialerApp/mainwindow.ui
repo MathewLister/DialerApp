@@ -27,9 +27,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QTableView::item {
-    border: .5px solid white
-}</string>
+     <string notr="true"/>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOn</enum>
@@ -52,6 +50,11 @@
       <width>104</width>
       <height>104</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
@@ -78,6 +81,11 @@ background-color: #FFFFFF;
       <height>104</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
 background-color: #FFFFFF;
@@ -102,6 +110,11 @@ background-color: #FFFFFF;
       <width>104</width>
       <height>104</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
@@ -128,6 +141,11 @@ background-color: #FFFFFF;
       <height>104</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
 background-color: #FFFFFF;
@@ -152,6 +170,11 @@ background-color: #FFFFFF;
       <width>104</width>
       <height>104</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
@@ -178,6 +201,11 @@ background-color: #FFFFFF;
       <height>104</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
 background-color: #FFFFFF;
@@ -202,6 +230,11 @@ background-color: #FFFFFF;
       <width>104</width>
       <height>104</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
@@ -228,6 +261,11 @@ background-color: #FFFFFF;
       <height>104</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
 background-color: #FFFFFF;
@@ -252,6 +290,11 @@ background-color: #FFFFFF;
       <width>104</width>
       <height>104</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
@@ -278,6 +321,11 @@ background-color: #FFFFFF;
       <height>104</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
 background-color: #FFFFFF;
@@ -302,6 +350,11 @@ background-color: #FFFFFF;
       <width>104</width>
       <height>104</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
@@ -328,6 +381,11 @@ background-color: #FFFFFF;
       <height>104</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: #666666;
 background-color: #FFFFFF;
@@ -352,6 +410,11 @@ background-color: #FFFFFF;
       <width>104</width>
       <height>104</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: white;

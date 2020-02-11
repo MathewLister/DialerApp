@@ -65,9 +65,7 @@ public:
         tableView = new QTableView(centralwidget);
         tableView->setObjectName(QString::fromUtf8("tableView"));
         tableView->setGeometry(QRect(520, 10, 481, 651));
-        tableView->setStyleSheet(QString::fromUtf8("QTableView::item {\n"
-"    border: .5px solid white\n"
-"}"));
+        tableView->setStyleSheet(QString::fromUtf8(""));
         tableView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
         tableView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
         tableView->horizontalHeader()->setVisible(false);
@@ -75,6 +73,9 @@ public:
         Button1 = new QPushButton(centralwidget);
         Button1->setObjectName(QString::fromUtf8("Button1"));
         Button1->setGeometry(QRect(60, 90, 104, 104));
+        QFont font;
+        font.setPointSize(10);
+        Button1->setFont(font);
         Button1->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -88,6 +89,7 @@ public:
         Button2 = new QPushButton(centralwidget);
         Button2->setObjectName(QString::fromUtf8("Button2"));
         Button2->setGeometry(QRect(190, 90, 104, 104));
+        Button2->setFont(font);
         Button2->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -101,6 +103,7 @@ public:
         Button3 = new QPushButton(centralwidget);
         Button3->setObjectName(QString::fromUtf8("Button3"));
         Button3->setGeometry(QRect(320, 90, 104, 104));
+        Button3->setFont(font);
         Button3->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -114,6 +117,7 @@ public:
         Button5 = new QPushButton(centralwidget);
         Button5->setObjectName(QString::fromUtf8("Button5"));
         Button5->setGeometry(QRect(190, 210, 104, 104));
+        Button5->setFont(font);
         Button5->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -127,6 +131,7 @@ public:
         Button6 = new QPushButton(centralwidget);
         Button6->setObjectName(QString::fromUtf8("Button6"));
         Button6->setGeometry(QRect(320, 210, 104, 104));
+        Button6->setFont(font);
         Button6->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -140,6 +145,7 @@ public:
         Button4 = new QPushButton(centralwidget);
         Button4->setObjectName(QString::fromUtf8("Button4"));
         Button4->setGeometry(QRect(60, 210, 104, 104));
+        Button4->setFont(font);
         Button4->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -153,6 +159,7 @@ public:
         Button8 = new QPushButton(centralwidget);
         Button8->setObjectName(QString::fromUtf8("Button8"));
         Button8->setGeometry(QRect(190, 330, 104, 104));
+        Button8->setFont(font);
         Button8->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -166,6 +173,7 @@ public:
         Button9 = new QPushButton(centralwidget);
         Button9->setObjectName(QString::fromUtf8("Button9"));
         Button9->setGeometry(QRect(320, 330, 104, 104));
+        Button9->setFont(font);
         Button9->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -179,6 +187,7 @@ public:
         Button7 = new QPushButton(centralwidget);
         Button7->setObjectName(QString::fromUtf8("Button7"));
         Button7->setGeometry(QRect(60, 330, 104, 104));
+        Button7->setFont(font);
         Button7->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -192,6 +201,9 @@ public:
         ButtonPound = new QPushButton(centralwidget);
         ButtonPound->setObjectName(QString::fromUtf8("ButtonPound"));
         ButtonPound->setGeometry(QRect(320, 450, 104, 104));
+        QFont font1;
+        font1.setPointSize(20);
+        ButtonPound->setFont(font1);
         ButtonPound->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -205,6 +217,7 @@ public:
         ButtonStar = new QPushButton(centralwidget);
         ButtonStar->setObjectName(QString::fromUtf8("ButtonStar"));
         ButtonStar->setGeometry(QRect(60, 450, 104, 104));
+        ButtonStar->setFont(font1);
         ButtonStar->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -218,6 +231,7 @@ public:
         Button0 = new QPushButton(centralwidget);
         Button0->setObjectName(QString::fromUtf8("Button0"));
         Button0->setGeometry(QRect(190, 450, 104, 104));
+        Button0->setFont(font);
         Button0->setStyleSheet(QString::fromUtf8("color: #666666;\n"
 "background-color: #FFFFFF;\n"
 " border-style: solid;\n"
@@ -231,6 +245,7 @@ public:
         ButtonPhone = new QPushButton(centralwidget);
         ButtonPhone->setObjectName(QString::fromUtf8("ButtonPhone"));
         ButtonPhone->setGeometry(QRect(190, 570, 104, 104));
+        ButtonPhone->setFont(font);
         ButtonPhone->setStyleSheet(QString::fromUtf8("color: white;\n"
 "background-color: #3CD141;\n"
 " border-style: solid;\n"

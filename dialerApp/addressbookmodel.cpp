@@ -31,9 +31,6 @@ QVariant addressBookModel::data(const QModelIndex &index, int role) const
         case 2: //phone numbers
             return phoneNumbers.at(index.row());
         }
-//        return QString("Row%1, Column%2")
-//                .arg(index.row())
-//                .arg(index.column());
     }
     return QVariant();
 }
