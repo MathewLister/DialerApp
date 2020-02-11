@@ -373,24 +373,30 @@ background-color: #3CD141;
    <widget class="QLineEdit" name="NumDisplay">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>70</x>
       <y>10</y>
       <width>341</width>
       <height>61</height>
      </rect>
     </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="backspaceButton">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>30</y>
-      <width>92</width>
-      <height>31</height>
+      <x>420</x>
+      <y>20</y>
+      <width>77</width>
+      <height>52</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
-     <string>BACKSPACE</string>
+     <string/>
     </property>
    </widget>
   </widget>

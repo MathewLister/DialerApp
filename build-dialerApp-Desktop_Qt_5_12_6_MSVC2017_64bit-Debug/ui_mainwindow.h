@@ -45,7 +45,7 @@ public:
     QPushButton *Button0;
     QPushButton *ButtonPhone;
     QLineEdit *NumDisplay;
-    QPushButton *pushButton;
+    QPushButton *backspaceButton;
     QMenuBar *menubar;
     QMenu *menuTools;
     QStatusBar *statusbar;
@@ -244,10 +244,11 @@ public:
 ""));
         NumDisplay = new QLineEdit(centralwidget);
         NumDisplay->setObjectName(QString::fromUtf8("NumDisplay"));
-        NumDisplay->setGeometry(QRect(20, 10, 341, 61));
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(380, 30, 92, 31));
+        NumDisplay->setGeometry(QRect(70, 10, 341, 61));
+        backspaceButton = new QPushButton(centralwidget);
+        backspaceButton->setObjectName(QString::fromUtf8("backspaceButton"));
+        backspaceButton->setGeometry(QRect(420, 20, 77, 52));
+        backspaceButton->setStyleSheet(QString::fromUtf8(""));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -287,7 +288,8 @@ public:
         ButtonStar->setText(QApplication::translate("MainWindow", "*", nullptr));
         Button0->setText(QString());
         ButtonPhone->setText(QString());
-        pushButton->setText(QApplication::translate("MainWindow", "BACKSPACE", nullptr));
+        NumDisplay->setText(QString());
+        backspaceButton->setText(QString());
         menuTools->setTitle(QApplication::translate("MainWindow", "Tools", nullptr));
     } // retranslateUi
 

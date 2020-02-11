@@ -25,7 +25,7 @@ private slots:
 
     void on_Button1_clicked();
 
-    void on_pushButton_clicked();
+    void on_backspaceButton_clicked();
 
     void on_Button2_clicked();
 

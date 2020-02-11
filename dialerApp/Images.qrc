@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>../Images/phoneIcon.png</file>
+        <file>../Images/backspace.png</file>
     </qresource>
 </RCC>

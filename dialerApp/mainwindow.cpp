@@ -3,6 +3,8 @@
 #include <QFileDialog>
 #include <iostream>
 #include <QTextEdit>
+#include <QMessageBox>
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -62,15 +64,23 @@ void MainWindow::on_actionExit_triggered()
 void MainWindow::loadImages()
 {
     QPixmap phoneIconFileName(":/Images/phoneIcon.png");
+    QPixmap backspaceIconFileName (":/Images/backspace.png");
     QIcon phoneIcon(phoneIconFileName);
+    QIcon backspaceIcon(backspaceIconFileName);
+
     phoneIcon.addPixmap(phoneIconFileName, QIcon::Normal, QIcon::Off);
     ui->ButtonPhone->setIcon(phoneIcon);
     ui->ButtonPhone->setIconSize(QSize(300, 300));
+
+    ui->backspaceButton->setFixedSize(50, 50);
+    backspaceIcon.addPixmap(backspaceIconFileName, QIcon::Normal, QIcon::Off);
+    ui->backspaceButton->setIcon(backspaceIcon);
+    ui->backspaceButton->setIconSize(QSize(50, 50));
 }
 //--------------------------------------------------------------------//
 //---------------------------BUTTONS----------------------------------//
 //Backspace
-void MainWindow::on_pushButton_clicked()
+void MainWindow::on_backspaceButton_clicked()
 {
     ui->NumDisplay->backspace();
 }
@@ -150,5 +160,13 @@ void MainWindow::on_ButtonPound_clicked()
 //Call
 void MainWindow::on_ButtonPhone_clicked()
 {
-    //TO DO
+    QString num = ui->NumDisplay->text();
+    if (ui->NumDisplay->text().length() > 6) {
+        QMessageBox msgBox;
+        msgBox.setText("Calling: " + num);
+        msgBox.setWindowTitle(" ");
+        ui->NumDisplay->clear();
+        msgBox.exec();
+    }
+
 }

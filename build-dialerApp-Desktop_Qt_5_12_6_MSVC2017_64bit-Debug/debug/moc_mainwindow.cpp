@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
     QByteArrayData data[21];
-    char stringdata0[392];
+    char stringdata0[397];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -39,25 +39,25 @@ QT_MOC_LITERAL(4, 70, 11), // "QModelIndex"
 QT_MOC_LITERAL(5, 82, 5), // "index"
 QT_MOC_LITERAL(6, 88, 23), // "on_actionExit_triggered"
 QT_MOC_LITERAL(7, 112, 18), // "on_Button1_clicked"
-QT_MOC_LITERAL(8, 131, 21), // "on_pushButton_clicked"
-QT_MOC_LITERAL(9, 153, 18), // "on_Button2_clicked"
-QT_MOC_LITERAL(10, 172, 18), // "on_Button3_clicked"
-QT_MOC_LITERAL(11, 191, 18), // "on_Button5_clicked"
-QT_MOC_LITERAL(12, 210, 18), // "on_Button4_clicked"
-QT_MOC_LITERAL(13, 229, 18), // "on_Button6_clicked"
-QT_MOC_LITERAL(14, 248, 18), // "on_Button7_clicked"
-QT_MOC_LITERAL(15, 267, 18), // "on_Button8_clicked"
-QT_MOC_LITERAL(16, 286, 18), // "on_Button9_clicked"
-QT_MOC_LITERAL(17, 305, 21), // "on_ButtonStar_clicked"
-QT_MOC_LITERAL(18, 327, 18), // "on_Button0_clicked"
-QT_MOC_LITERAL(19, 346, 22), // "on_ButtonPound_clicked"
-QT_MOC_LITERAL(20, 369, 22) // "on_ButtonPhone_clicked"
+QT_MOC_LITERAL(8, 131, 26), // "on_backspaceButton_clicked"
+QT_MOC_LITERAL(9, 158, 18), // "on_Button2_clicked"
+QT_MOC_LITERAL(10, 177, 18), // "on_Button3_clicked"
+QT_MOC_LITERAL(11, 196, 18), // "on_Button5_clicked"
+QT_MOC_LITERAL(12, 215, 18), // "on_Button4_clicked"
+QT_MOC_LITERAL(13, 234, 18), // "on_Button6_clicked"
+QT_MOC_LITERAL(14, 253, 18), // "on_Button7_clicked"
+QT_MOC_LITERAL(15, 272, 18), // "on_Button8_clicked"
+QT_MOC_LITERAL(16, 291, 18), // "on_Button9_clicked"
+QT_MOC_LITERAL(17, 310, 21), // "on_ButtonStar_clicked"
+QT_MOC_LITERAL(18, 332, 18), // "on_Button0_clicked"
+QT_MOC_LITERAL(19, 351, 22), // "on_ButtonPound_clicked"
+QT_MOC_LITERAL(20, 374, 22) // "on_ButtonPhone_clicked"
 
     },
     "MainWindow\0on_actionOpen_Address_Book_triggered\0"
     "\0on_tableView_clicked\0QModelIndex\0"
     "index\0on_actionExit_triggered\0"
-    "on_Button1_clicked\0on_pushButton_clicked\0"
+    "on_Button1_clicked\0on_backspaceButton_clicked\0"
     "on_Button2_clicked\0on_Button3_clicked\0"
     "on_Button5_clicked\0on_Button4_clicked\0"
     "on_Button6_clicked\0on_Button7_clicked\0"
@@ -131,7 +131,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 1: _t->on_tableView_clicked((*reinterpret_cast< const QModelIndex(*)>(_a[1]))); break;
         case 2: _t->on_actionExit_triggered(); break;
         case 3: _t->on_Button1_clicked(); break;
-        case 4: _t->on_pushButton_clicked(); break;
+        case 4: _t->on_backspaceButton_clicked(); break;
         case 5: _t->on_Button2_clicked(); break;
         case 6: _t->on_Button3_clicked(); break;
         case 7: _t->on_Button5_clicked(); break;
