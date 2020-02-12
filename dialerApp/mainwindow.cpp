@@ -69,7 +69,7 @@ void MainWindow::loadImages()
 
     phoneIcon.addPixmap(phoneIconFileName, QIcon::Normal, QIcon::Off);
     ui->ButtonPhone->setIcon(phoneIcon);
-    ui->ButtonPhone->setIconSize(QSize(300, 300));
+    ui->ButtonPhone->setIconSize(QSize(300,300));
 
     ui->backspaceButton->setFixedSize(50, 50);
     backspaceIcon.addPixmap(backspaceIconFileName, QIcon::Normal, QIcon::Off);
